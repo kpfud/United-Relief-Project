@@ -1,0 +1,35 @@
+# Ignore Visual Studio files
+.vs/
+.vs2019/
+.vs2017/
+*.user
+*.userosscache
+*.suo
+*.sdf
+*.dbmdl
+
+# Ignore build output folders
+bin/
+obj/
+
+# Ignore temporary files and logs
+*.log
+
+# Ignore any generated files like compiled .dll or .exe
+*.dll
+*.exe
+*.out
+*.pdb
+*.idb
+*.lib
+*.a
+*.ilk
+*.exp
+*.obj
+
+# Ignore Visual Studio Code specific files
+.vscode/
+
+# Ignore OS-generated files (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
